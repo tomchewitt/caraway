@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: $em-base;
+    line-height: 1.8em;
+    color: $color-body;
+}
+
+a,
+a:visited {
+    font-weight: 600;
+    color: $color-red;
+}
+
+.inner {
+    max-width: 35em;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    font-size: 1em;
+
+    text-align: left;
+}
+
+.header__logo {
+    width: 100%;
+    padding-top: 13em;
+
+    text-indent: -9999px;
+    color: $color-white;
+
+    background: url("../img/caraway-logo.jpg") no-repeat center top;
+    background-size: contain;
+
+    h1,
+    span {
+        display: block;
+        text-indent: -9999px;
+    }
+}
+
+.anna-chaplain {
+    padding-top: 2em;
+
+    text-align: center;
+
+    img {
+        max-width: 10em;
+    }
+}
+
+.footer {
+    padding-top: 2em;
+
+    font-size: 0.8em;
+    text-align: center;
+}

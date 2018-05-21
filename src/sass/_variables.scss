@@ -1,0 +1,14 @@
+@function em-calc($px-width, $base: $em-base) {
+    @return $px-width / $base * 1em;
+}
+
+$em-base: 16px;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-body: #656;
+$color-red: #ca0000;
+
+// Media queries
+$mq-large: 600px;
