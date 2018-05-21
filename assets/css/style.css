@@ -312,7 +312,6 @@ body {
 
 a,
 a:visited {
-  font-weight: 600;
   color: #ca0000; }
 
 .inner {
@@ -345,4 +344,5 @@ a:visited {
 .footer {
   padding-top: 2em;
   font-size: 0.8em;
-  text-align: center; }
+  text-align: center;
+  color: #c9bec9; }
